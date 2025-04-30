@@ -17,8 +17,10 @@ class NotesView extends StatelessWidget {
             context: context,
             builder: (context)
           {
-            return const AddNoteBottomSheet();
-          });
+           // MediaQuery.of(context).size.height*0.9;
+           return const AddNoteBottomSheet();
+          }
+          );
         } ,
          child: const Icon(Icons.add),
          ),
